@@ -33,8 +33,6 @@ BASE_STYLE = {
         "_hover": {
             "color": TextColor.HEADER.value,
             "background_color": Colors.ALTERNATIVE.value,
-            "border": "2px solid",
-            "border_color": "gray",
             },
     },
     rx.link: {

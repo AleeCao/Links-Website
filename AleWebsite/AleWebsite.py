@@ -11,6 +11,10 @@ from rxconfig import config
 class State(rx.State):
     pass
 
+@rx.page(
+    title="Links Website",
+    image="/lightning.png",
+)
 def index() -> rx.Component:
     # Welcome Page (Index)
     return rx.box(
